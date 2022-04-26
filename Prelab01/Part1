@@ -1,0 +1,24 @@
+#! /bin/bash
+#
+#$Author$
+#$Date$
+#$Revision$
+#$HeadURL$
+#$Id$
+
+echo "Price \$0.99"
+printf "%0.2f\n" 3.1415926
+String_Var=Prelab01str_var
+printf "%s\n" $String_Var
+
+echo "${Home}" # print out nothing
+echo '${Home}' # print out ${Home}
+
+printf $USER #no new line
+
+printf "%15s\n" $SHELL
+echo They said, "Hello, World." # print out They said, Hello, World.
+
+echo '$2.679'
+echo $0
+exit 0

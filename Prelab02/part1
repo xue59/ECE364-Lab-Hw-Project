@@ -1,0 +1,19 @@
+touch first10.txt
+exec 10<benchmarks.txt
+exec 11>first10.txt
+i=1
+while read line<&10
+do
+    if (($i < 11))
+    then    
+    echo $line>&11
+    fi
+
+    if (($i > 5 && $i < 11))
+    then
+    echo $line
+    fi
+
+    ((i=$i+1))
+done
+exit 0

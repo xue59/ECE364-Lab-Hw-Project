@@ -1,0 +1,31 @@
+#! /bin/bash
+#
+#$Author$
+#$Date$
+#$Revision$
+#$HeadURL$
+#$Id$
+
+#Input checking
+if [[ $# == 0 ]]
+then
+    echo "Usage: ./check_file.bash <filename>"
+    exit 1
+elif [[ $# > 1 ]]
+then
+    echo "Number of input file must be limited to one"
+    exit 1
+fi
+
+#If pass, go to main
+FILENAME=$1
+if [[ -e $FILENAME ]]
+then
+    echo "$FILENAME exists"
+else
+    echo "$FILENAME does not exist"
+fi
+
+
+
+

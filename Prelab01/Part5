@@ -1,0 +1,12 @@
+#! /bin/bash
+#
+
+FILETYPE=txt
+FILES=$(ls *.$FILETYPE)
+echo $FILES
+echo "-----"
+
+STATUS=$(svn status exist.bash | head -c 1)
+echo $STATUS
+echo "-----"
+exit 0

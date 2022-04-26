@@ -1,0 +1,14 @@
+#! /bin/bash
+#
+#$Author: ee364b13 $
+#$Date: 2016-01-12 14:56:26 -0500 (Tue, 12 Jan 2016) $
+#$Revision: 83982 $
+#$HeadURL: svn+ssh://ece364sv@ecegrid-thin1/home/ecegrid/a/ece364sv/svn/S16/students/ee364b13/Lab00/Script2 $
+#$Id: Script2 83982 2016-01-12 19:56:26Z ee364b13 $
+
+Num=$1
+for(( i=Num; i>=0; i--))
+do
+    echo ${i};
+done
+exit 0

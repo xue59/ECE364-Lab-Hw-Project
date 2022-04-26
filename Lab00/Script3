@@ -1,0 +1,17 @@
+#! /bin/bash
+#
+#$Author: ee364b13 $
+#$Date: 2016-01-12 15:00:52 -0500 (Tue, 12 Jan 2016) $
+#$Revision: 83989 $
+#$HeadURL: svn+ssh://ece364sv@ecegrid-thin1/home/ecegrid/a/ece364sv/svn/S16/students/ee364b13/Lab00/Script3 $
+#$Id: Script3 83989 2016-01-12 20:00:52Z ee364b13 $
+
+Num=$1
+for(( i=Num; i>=0; i--))
+do
+    if (( $i % 3 == 0 ))
+    then
+        echo ${i};
+    fi
+done
+exit 0

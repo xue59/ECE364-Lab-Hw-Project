@@ -1,0 +1,10 @@
+#! /bin/bash
+#
+
+if [[ -r test.txt ]]
+then
+    echo "test.txt exists."
+else
+    echo "test.txt not exists."
+fi
+exit 0

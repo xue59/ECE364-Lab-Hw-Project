@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Lab04/.idea/Lab04.iml" filepath="$USER_HOME$/Lab04/.idea/Lab04.iml" />
+      <module fileurl="file://$USER_HOME$/Lab05/.idea/Lab05.iml" filepath="$USER_HOME$/Lab05/.idea/Lab05.iml" />
+      <module fileurl="file://$USER_HOME$/Lab06/.idea/Lab06.iml" filepath="$USER_HOME$/Lab06/.idea/Lab06.iml" />
+      <module fileurl="file://$USER_HOME$/Lab07/.idea/Lab07.iml" filepath="$USER_HOME$/Lab07/.idea/Lab07.iml" />
+      <module fileurl="file://$USER_HOME$/Lab08/.idea/Lab08.iml" filepath="$USER_HOME$/Lab08/.idea/Lab08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Prelab04.iml" filepath="$PROJECT_DIR$/.idea/Prelab04.iml" />
+      <module fileurl="file://$USER_HOME$/Prelab06/.idea/Prelab06.iml" filepath="$USER_HOME$/Prelab06/.idea/Prelab06.iml" />
+      <module fileurl="file://$USER_HOME$/Prelab07/.idea/Prelab07.iml" filepath="$USER_HOME$/Prelab07/.idea/Prelab07.iml" />
+      <module fileurl="file://$USER_HOME$/Prelab08/.idea/Prelab08.iml" filepath="$USER_HOME$/Prelab08/.idea/Prelab08.iml" />
+    </modules>
+  </component>
+</project>
